@@ -1,9 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import Header from '../components/header'
-import './index.css'
+import Header from '../components/header';
+import './index.css';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children, data }) => (
   <div>
